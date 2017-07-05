@@ -61,23 +61,7 @@ strong {
   color: #333;
 }
 
-/* 05 Balance */
 
-code,
-pre {
-  background: #eee;
-}
-
-code {
-  padding: 2px 4px;
-  vertical-align: text-bottom;
-}
-
-pre {
-  padding: 1em;
-}
-
-/* 06 Primary color */
 
 a {
   color: #e81c4f;
@@ -98,44 +82,11 @@ body {
   color: #566b78;
 }
 
-code,
-pre {
-  background: #f5f7f9;
-  border-bottom: 1px solid #d8dee9;
-  color: #a7adba;
-  -moz-font-smoothing: grayscale;
-  -webkit-font-smoothing: initial;
-}
 
-pre {
-  border-left: 2px solid #69c;
-}
 
-.selector {
-  color: #ec5f67;
-}
-
-.keyword {
-  color: #ab7967;
-}
-
-.unit {
+p
   color: #fac863;
 }
-
-.attribute {
-  color: #5fb3b3;
-}
-
-.number {
-  color: #f99157;
-}
-
-.string {
-  color: #c594c5;
-}
-
-/* 08 Custom font */
 
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -237,7 +188,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	line-height: 1.2;
-	max-width: none;
+	max-width: 100%;
 	padding-top: 3vw;
 	padding-right: 2em;
 	padding-left: 2em;
@@ -362,63 +313,6 @@ footer .button {
   margin-bottom: 1em;
 }
 
-/* Resources */
-
-.resources {
-  margin: 1em 0;
-  padding: 0;
-}
-
-.resource {
-  align-items: center;
-  border: 1px solid #d8dee9;
-  border-radius: 5px;
-  color: #566b78;
-  cursor: pointer;
-  display: flex;
-  margin-top: 1em;
-  padding: 1em 2em;
-  text-decoration: none;
-}
-
-.resource:hover {
-  border-color: #e81c4f;
-}
-
-.resource strong {
-  color: #e81c4f;
-}
-
-.resource .resource-name {
-  color: #333;
-  display: block;
-  font-size: 1.2em;
-}
-
-.resource-icon {
-  box-sizing: border-box;
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 0;
-  height: 120px;
-  margin: 0;
-  margin-right: 1em;
-  padding: 0;
-  text-align: center;
-  width: 120px;
-}
-
-.resource-marksheet .resource-icon {
-  padding: 5px;
-}
-
-.resource-bulma .resource-icon {
-  padding: 10px;
-}
-
-.resource-css-reference .resource-icon {
-  padding: 20px;
-}
 
 /* Responsiveness */
 
@@ -426,6 +320,7 @@ footer .button {
   .buttons {
     align-items: center;
     display: flex;
+    max-width: 100%;
     justify-content: space-between;
     padding: 1em 0;
   }
@@ -441,23 +336,4 @@ footer .button {
     margin-right: 0;
   }
 
-  .resources {
-    display: flex;
-  }
 
-  .resource {
-    display: block;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-    text-align: center;
-  }
-
-  .resource + .resource {
-    margin-left: 1em;
-  }
-
-  .resource-icon {
-    margin: 0 auto 1em;
-  }
-}
