@@ -15,10 +15,6 @@ img {
   max-width: 100%;
 }
 
-pre {
-  overflow: auto;
-  white-space: pre-wrap;
-}
 
 footer {
 	align-items: center;
@@ -28,7 +24,6 @@ footer {
 	text-align: center;
 }
 
-/* 01 Centering */
 
 header,
 main {
@@ -36,20 +31,19 @@ main {
   max-width: 50em;
 }
 
-/* 02 Font family */
+
 
 body {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
-/* 03 Spacing */
 
 body {
   line-height: 1.5;
   padding: 4em 1em;
 }
 
-/* 04 Color and contrast */
+
 
 body {
   color: #555;
@@ -75,7 +69,7 @@ button:hover {
 
 
 
-/* 07 Secondary colors */
+
 
 body {
   background: white;
@@ -184,14 +178,14 @@ main {
 }
 
 header {
-	background-position: center top;
+	
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	line-height: 1.2;
 	max-width: 100%;
 	padding-top: 3vw;
-	padding-right: 2em;
-	padding-left: 2em;
+	padding-right: 15em;
+	padding-left: 15em;
 	padding-bottom: 3vw;
 	text-align: center;
 	background-image: url(images/resume.jpg);
